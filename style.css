@@ -1,0 +1,115 @@
+/* Styles gerais para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles para o cabeçalho */
+header {
+    background-color: #401ca3;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Styles para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles para o conteúdo principal */
+main {
+    margin: 20px;
+    flex: 1; /* Faz o main ocupar o espaço restante da tela */
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #333;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Styles para o rodapé */
+footer {
+    background-color: #401ca3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles para imagens principais */
+.imagem-principal {
+    width: 100%; /* Fazer a imagem ocupar toda a largura disponível */
+    max-width: 600px; /* Definir um tamanho máximo para a imagem */
+    height: auto; /* Manter a proporção da imagem */
+    display: block;
+    margin: 20px auto; /* Centralizar a imagem */
+}
+
+/* Styles para as imagens dentro das seções de cálculo */
+.imagem-Calculo-Media-Parcial,
+.imagem-Calculo-Media-Final,
+.imagem-Media-Para-Exame,
+.imagem-Media-Para-Aprovacao-S-Exame {
+    width: 100%; /* Fazer a imagem ocupar toda a largura disponível */
+    max-width: 600px; /* Definir um tamanho máximo para a imagem */
+    height: auto; /* Manter a proporção da imagem */
+    display: block;
+    margin: 20px auto; /* Centralizar a imagem */
+}
+
+/* Styles adicionais para as seções */
+.section-container {
+    margin-bottom: 40px;
+}
+
+/* Styles para listas */
+ul {
+    padding-left: 20px;
+}
+
+/* Styles para títulos nas seções */
+.section-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
